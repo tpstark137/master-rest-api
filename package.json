@@ -1,0 +1,19 @@
+{
+  "name": "master-rest-api",
+  "version": "1.0.0",
+  "description": "tutorial for master-rest-api",
+  "main": "index.js",
+  "keywords": ["typescript", "expressjs", "rest-api"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.ts"
+  },
+  "author": "Tusshar Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
