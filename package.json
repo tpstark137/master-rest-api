@@ -3,17 +3,25 @@
   "version": "1.0.0",
   "description": "tutorial for master-rest-api",
   "main": "index.js",
-  "keywords": ["typescript", "expressjs", "rest-api"],
+  "keywords": [
+    "typescript",
+    "expressjs",
+    "rest-api"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon server.ts"
+    "dev": "nodemon server.ts"
   },
   "author": "Tusshar Paul",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.7.0",
     "@types/node": "^20.14.11",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.16.1"
   }
 }
